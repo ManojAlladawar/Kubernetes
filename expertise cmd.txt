@@ -1,0 +1,45 @@
+docker start up:
+
+command:
+
+systemctl docker start : to start the docker 
+
+2. to check the docker is running pt rnot 
+cmd:: docker info 
+
+3.to check the containers all 
+docker ps  -a 
+
+to 
+
+docker ps 
+
+4.docker images for all image 
+
+5. for install docker 
+curl -sSL -------------
+cmd: yum install docker-ce 
+configure yum repo 
+cmd: cd /etc/yum.repos.d/
+
+
+6. rpm -q docker-ce to check docker present or not 
+7. which cmd_name
+  gives softawre used to download 
+
+8.docker conatiner  ps  === docker ps -a //to see all container 
+
+9.  docker commit myos1 mynew //clone or copy to mynew
+--tgis is foir creating our own image 
+
+10. docker run --it myos1 date 
+//run the date commmand and os shutdown 
+
+11.Why docker containers are so fast.
+12.docker inspect container_name //to insopect conatiner
+
+13.free -m //memory check
+
+
+
+

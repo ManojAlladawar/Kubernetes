@@ -1,0 +1,7 @@
+vim dockerfile
+
+
+FROM centos
+sudo apt-get install httpd-y
+cp index.html /var/www/html
+Commit this file as a dockerfile and create the image from this

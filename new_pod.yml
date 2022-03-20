@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "mypod1"
+  labels:
+    region: IN
+   
+spec:
+    volumes:
+    - name: s1
+      persistentVolumeClaim:
+            claimName: mypvcclaim
+    containers:
+    - name: "myc2"
+      image: "httpd" 
+      VolumeMounts:
+        - mountPath: /var/www/data
+          name: s1

@@ -1,0 +1,13 @@
+if we want to use k8s \
+
+1. install minikube 
+cmd: minikube.exe start
+
+2.to check cluster info
+cmd: kubectl.exe cluster-info
+
+.3. to check the pods running 
+cmd: kubectl.exe get pods
+
+4.to deploy image (pod)
+cmd: kubectl.exe create deploy --image==httpd
